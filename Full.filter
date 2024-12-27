@@ -135,6 +135,20 @@ SetTextColor 0 100 0 250
 SetBackgroundColor 255 255 204 200
 
 Show
+BaseType = "Uncut Skill Gem"
+MinimapIcon 0 Yellow Circle
+SetFontSize 50
+SetTextColor 0 100 0 250
+SetBackgroundColor 255 255 204 200
+
+Show
+BaseType = "Uncut Spirit Gem"
+MinimapIcon 0 Yellow Circle
+SetFontSize 50
+SetTextColor 0 100 0 250
+SetBackgroundColor 255 255 204 200
+
+Show
 Rarity = Unique
 SetFontSize 50
 SetTextColor 175 96 37 250
