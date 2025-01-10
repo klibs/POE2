@@ -307,21 +307,32 @@ SetBorderColor 255 255 150
 # # # # #
 
 Show
-BaseType Advanced Dualstring Bow
-Rarity = Magic
-SetFontSize 40
-
-BaseType Advanced Dualstring Bow
+BaseType "Expert Dualstring Bow"
 Rarity = Rare
 SetFontSize 40
+SetTextColor 109 194 123 250
+SetBorderColor 255 255 0 250
 
-BaseType Expert Dualstring Bow
+Show
+BaseType "Expert Dualstring Bow"
 Rarity = Magic
 SetFontSize 40
+SetTextColor 109 194 123 250
+SetBorderColor 0 0 255 250
 
-BaseType Expert Dualstring Bow
+Show
+BaseType "Advanced Dualstring Bow"
 Rarity = Rare
-SetFontSize 40
+SetFontSize 30
+SetTextColor 109 194 123 250
+SetBorderColor 255 255 0 250
+
+Show
+BaseType "Advanced Dualstring Bow"
+Rarity = Magic
+SetFontSize 30
+SetTextColor 109 194 123 250
+SetBorderColor 0 0 255 250
 
 # Defaults for junk etc
 
