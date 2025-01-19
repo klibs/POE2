@@ -44,9 +44,8 @@ SetBackgroundColor 255 255 255 150
 PlayAlertSound 11 100
 
 Show
-BaseType "Orb of Alteration" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation"
+BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation" "Orb of Transmutation"
 MinimapIcon 0 Yellow Circle
-PlayEffect Yellow
 SetFontSize 30
 SetBackgroundColor 0 0 0 250
 
@@ -54,7 +53,7 @@ Hide
 BaseType "Scroll of Wisdom"
 # PlayEffect White Temp
 SetFontSize 20
-SetBackgroundColor 0 0 0 250
+AreaLevel >= 70
 
 Show
 Class = Socketable
@@ -186,23 +185,26 @@ Show
 Class = "Life Flasks"
 Rarity = Magic
 SetFontSize 30
-SetTextColor 200 0 0 150
+SetTextColor 226 5 5 194
 SetBackgroundColor 0 0 0 250
 
 Show
 Class = "Mana Flasks"
 Rarity = Magic
 SetFontSize 30
-SetTextColor 0 40 222 170
+SetTextColor 38 77 248 229
 SetBackgroundColor 0 0 0 250
 
 # Rare Items
 
 Show
 Rarity = Rare
+BaseType = Expert
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
 SetFontSize 30
 SetTextColor 255 255 119 250
 SetBorderColor 255 255 0 250
+AreaLevel >= 70
 
 Show
 Class "Rings" "Amulets" "Belts"
@@ -213,18 +215,12 @@ SetBackgroundColor 0 0 0 250
 SetBorderColor 250 50 100 250
 SetFontSize 30
 
-Show
-Class "Rings" "Amulets" "Belts"
-SetBackgroundColor 0 0 0 250
-SetBorderColor 0 0 0 250
-SetFontSize 30
-
 # Maps
 
 Show
 Rarity = Rare
 Class = Waystones
-MapTier >= 13
+WaystoneTier >= 13
 MinimapIcon 0 White Circle
 SetFontSize 30
 SetBorderColor 255 0 0 255
@@ -238,7 +234,7 @@ SetFontSize 30
 SetBorderColor 255 0 0 255
 SetTextColor 255 255 255 250
 PlayAlertSound 6 150
-AreaLevel > 75
+AreaLevel >= 70
 
 Show
 Class = "Inscribed Ultimatum"
@@ -313,3 +309,8 @@ Quality < 14
 Hide
 Rarity = Normal
 Quality < 14
+
+Hide
+Rarity = Rare
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+AreaLevel >= 70
