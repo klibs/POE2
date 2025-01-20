@@ -44,8 +44,13 @@ SetBackgroundColor 255 255 255 150
 PlayAlertSound 11 100
 
 Show
-BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Augmentation" "Orb of Transmutation"
+BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
 MinimapIcon 0 Yellow Circle
+SetFontSize 30
+SetBackgroundColor 0 0 0 250
+
+Show
+BaseType "Orb of Augmentation" "Orb of Transmutation"
 SetFontSize 30
 SetBackgroundColor 0 0 0 250
 
@@ -290,7 +295,7 @@ Rarity = Magic
 Quality >= 14
 SetFontSize 30
 SetTextColor 219 219 250 250
-SetBorderColor 0 0 255 250
+SetBorderColor 75 87 255 250
 
 Show
 Rarity = Magic
