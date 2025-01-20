@@ -98,28 +98,27 @@ SetTextColor 0 80 0 250
 SetBackgroundColor 255 255 204 150
 SetBorderColor 255 255 255 250
 
+# Gold
+
 Show
 BaseType == Gold
-# MinimapIcon 0 Yellow Circle
 StackSize >= 500
-PlayEffect Yellow
 SetFontSize 30
 SetTextColor 255 255 204 150
+AreaLevel >= 70
+
 
 Show
 BaseType == Gold
-PlayEffect Yellow Temp
-SetFontSize 30
+StackSize >= 100
+SetFontSize 20
 SetTextColor 255 255 204 150
+AreaLevel >= 70
 
-Show
-Class = Currency
-PlayEffect Yellow
-MinimapIcon 0 Yellow Circle
-SetFontSize 30
-SetTextColor 0 0 0 250
-SetBackgroundColor 255 255 204 150
-SetBorderColor 255 255 255 250
+Hide
+BaseType == Gold
+StackSize < 100
+AreaLevel >= 70
 
 Show
 Class = Map Fragments
