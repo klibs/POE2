@@ -172,6 +172,7 @@ Rarity = Magic
 SetFontSize 30
 SetTextColor 226 5 5 194
 SetBackgroundColor 0 0 0 250
+AreaLevel < 70
 
 Show
 Class = "Mana Flasks"
@@ -179,6 +180,25 @@ Rarity = Magic
 SetFontSize 30
 SetTextColor 38 77 248 229
 SetBackgroundColor 0 0 0 250
+AreaLevel < 70
+
+Show
+Class = "Life Flasks"
+Rarity = Magic
+Quality >= 10
+SetFontSize 30
+SetTextColor 226 5 5 194
+SetBackgroundColor 0 0 0 250
+AreaLevel >= 70
+
+Show
+Class = "Mana Flasks"
+Rarity = Magic
+Quality >= 10
+SetFontSize 30
+SetTextColor 38 77 248 229
+SetBackgroundColor 0 0 0 250
+AreaLevel >= 70
 
 # Rare Items
 
@@ -206,14 +226,6 @@ Show
 Rarity = Rare
 Class = Waystones
 WaystoneTier >= 13
-MinimapIcon 0 White Circle
-SetFontSize 30
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
-
-Hide
-Class = Waystones
 MinimapIcon 0 White Circle
 SetFontSize 30
 SetBorderColor 255 0 0 255
@@ -277,14 +289,14 @@ Show
 Rarity = Magic
 Quality >= 14
 SetFontSize 30
-SetTextColor 136 136 255 250
+SetTextColor 219 219 250 250
 SetBorderColor 0 0 255 250
 
 Show
 Rarity = Magic
 BaseType = "Belt" "Ring" "Amulet"
 SetFontSize 30
-SetTextColor 136 136 255 100
+SetTextColor 30 45 253
 
 # Hide Junk
 Hide
@@ -302,4 +314,8 @@ AreaLevel >= 70
 
 Hide
 Class "Life Flasks" "Mana Flasks"
+AreaLevel >= 70
+
+Hide
+Class = Waystones
 AreaLevel >= 70
