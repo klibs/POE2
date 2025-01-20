@@ -167,21 +167,6 @@ SetTextColor 50 150 100 250
 SetBorderColor 255 255 255 250
 
 Show
-Sockets > 0
-Rarity = Rare
-SetFontSize 30
-SetTextColor 255 255 119 250
-SetBorderColor 255 255 0 250
-MinimapIcon 0 Red Circle
-SetTextColor 0 200 100 150
-
-Show
-Sockets > 0
-MinimapIcon 0 Red Circle
-SetFontSize 30
-SetTextColor 0 200 100 150
-
-Show
 Class = "Life Flasks"
 Rarity = Magic
 SetFontSize 30
@@ -313,4 +298,8 @@ Quality < 14
 Hide
 Rarity = Rare
 Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+AreaLevel >= 70
+
+Hide
+Class "Life Flasks" "Mana Flasks"
 AreaLevel >= 70
