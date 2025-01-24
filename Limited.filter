@@ -120,12 +120,16 @@ SetFontSize 30
 SetTextColor 255 255 204 150
 AreaLevel >= 70
 
-
 Show
 BaseType == Gold
 StackSize >= 100
 SetFontSize 20
 SetTextColor 255 255 204 150
+AreaLevel >= 70
+
+Hide
+BaseType == Gold
+StackSize < 100
 AreaLevel >= 70
 
 Hide
