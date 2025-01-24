@@ -128,6 +128,11 @@ SetFontSize 20
 SetTextColor 255 255 204 150
 AreaLevel >= 70
 
+Hide
+BaseType "Scroll of Wisdom"
+SetFontSize 20
+AreaLevel >= 70
+
 # IMPORTANT - Catchall for other currency without explicit rules!!!
 Show
 Class = Currency
@@ -329,11 +334,6 @@ AreaLevel >= 70
 
 Hide
 Class = Waystones
-AreaLevel >= 70
-
-Hide
-BaseType "Scroll of Wisdom"
-SetFontSize 20
 AreaLevel >= 70
 
 Hide
