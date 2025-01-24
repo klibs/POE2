@@ -258,6 +258,15 @@ SetFontSize 30
 Show
 Rarity = Rare
 Class = Waystones
+MinimapIcon 0 White Circle
+SetFontSize 30
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Rarity = Rare
+Class = Waystones
 WaystoneTier >= 13
 MinimapIcon 0 White Circle
 SetFontSize 30
@@ -268,7 +277,6 @@ AreaLevel >= 70
 
 Show
 Class = "Inscribed Ultimatum"
-#MapTier >= 15
 MinimapIcon 0 White Circle
 SetFontSize 40
 SetBorderColor 255 0 0 255
@@ -287,6 +295,15 @@ PlayEffect Yellow
 Show
 BaseType "Expedition Logbook"
 PlayEffect Green
+MinimapIcon 1 Yellow Star
+PlayAlertSound 4 200
+SetFontSize 40
+SetTextColor 255 255 150 250
+SetBackgroundColor 255 0 255 130
+SetBorderColor 255 255 150
+
+Show
+BaseType "Crisis Fragment"
 MinimapIcon 1 Yellow Star
 PlayAlertSound 4 200
 SetFontSize 40
@@ -338,6 +355,7 @@ AreaLevel >= 70
 
 Hide
 Class = Waystones
+WaystoneTier < 13
 AreaLevel >= 70
 
 Hide
