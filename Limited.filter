@@ -147,18 +147,6 @@ SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 150
 SetBorderColor 255 255 255 250
 
-# Maps
-
-Show
-Class = Map Fragments
-PlayEffect Red
-MinimapIcon 0 Red Circle
-SetFontSize 30
-SetTextColor 200 0 0 250
-SetBackgroundColor 255 255 204 150
-SetBorderColor 255 255 255 250
-PlayAlertSound 7 200
-
 Show
 BaseType = "Uncut Support Gem"
 MinimapIcon 0 Yellow Circle
@@ -255,25 +243,22 @@ SetFontSize 30
 
 # Maps
 
-Show
-Rarity = Rare
-Class = Waystones
-MinimapIcon 0 White Circle
-SetFontSize 30
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
+# Show
+# Rarity = Rare
+# Class = Waystones
+# MinimapIcon 0 White Circle
+# SetFontSize 30
+# SetBorderColor 255 0 0 255
+# SetTextColor 255 255 255 250
+# PlayAlertSound 6 150
 
 Show
-Rarity = Rare
 Class = Waystones
 WaystoneTier >= 13
-MinimapIcon 0 White Circle
+MinimapIcon 1 White Circle
 SetFontSize 30
 SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
 PlayAlertSound 6 150
-AreaLevel >= 70
 
 Show
 Class = "Inscribed Ultimatum"
@@ -302,14 +287,14 @@ SetTextColor 255 255 150 250
 SetBackgroundColor 255 0 255 130
 SetBorderColor 255 255 150
 
-Show
-BaseType "Crisis Fragment"
-MinimapIcon 1 Yellow Star
-PlayAlertSound 4 200
-SetFontSize 40
-SetTextColor 255 255 150 250
-SetBackgroundColor 255 0 255 130
-SetBorderColor 255 255 150
+# Show
+# Class Currency
+# MinimapIcon 1 Yellow Star
+# PlayAlertSound 4 200
+# SetFontSize 40
+# SetTextColor 255 255 150 250
+# SetBackgroundColor 255 0 255 130
+# SetBorderColor 255 255 150
 
 # Magic Items
 
