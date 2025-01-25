@@ -324,10 +324,12 @@ SetFontSize 30
 Hide
 Rarity = Magic
 Quality < 14
+AreaLevel >= 70
 
 Hide
 Rarity = Normal
 Quality < 14
+AreaLevel >= 70
 
 Hide
 Rarity = Rare
