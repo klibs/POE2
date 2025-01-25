@@ -1,3 +1,29 @@
+# TEST
+
+## alert sounds:
+### 1 - Single gong sound
+### 2 - Single gong sound (deeper)
+### 3 - Single gong sound (even deeper)
+### 4 - Single whoosh sound
+### 5 - Single whoosh sound (louder, very alerting)
+### 6 - Single whoosh sound (higher pitched, alerting)
+### 7 - Echoing notes
+### 8 - Echoing notes
+### 9 - Echoing notes
+### 10 - Single higher pitched note
+### 11 - Single dull note (not very alerting)
+### 12 - Single dull note (not very alerting)
+
+# Show
+#     BaseType = "Scroll of Wisdom"
+#     MinimapIcon 0 White Star
+#     PlayEffect White
+#     SetFontSize 40
+#     SetTextColor 255 255 255 250
+#     SetBackgroundColor 226 106 25 250
+#     SetBorderColor 209 209 209
+#     PlayAlertSound 4 200
+
 # Stuff I am looking for / want
 
 Show
@@ -30,7 +56,7 @@ Show
     SetTextColor 255 255 255 250
     SetBackgroundColor 255 0 255 250
     SetBorderColor 0 0 0
-    PlayAlertSound 8 200
+    PlayAlertSound 5 200
 
 Show
     BaseType "Divine Orb" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
@@ -40,7 +66,7 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 255 0 255 250
     SetBorderColor 0 0 0
-    PlayAlertSound 8 200
+    PlayAlertSound 5 200
 
 Show
     BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate"
@@ -50,7 +76,7 @@ Show
     SetTextColor 255 100 0 255
     SetBorderColor 100 100 255 255
     SetBackgroundColor 255 255 255 150
-    PlayAlertSound 12 200
+    PlayAlertSound 6 200
 
 Show
     Class = Currency
@@ -60,7 +86,7 @@ Show
     SetTextColor 255 255 0 255
     SetBorderColor 100 150 255 255
     SetBackgroundColor 255 255 255 150
-    PlayAlertSound 11 100
+    PlayAlertSound 6 100
 
 Show
     BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
@@ -72,6 +98,17 @@ Show
     BaseType "Orb of Augmentation" "Orb of Transmutation"
     SetFontSize 30
     SetBackgroundColor 0 0 0 250
+
+Show
+    Class = Trial Coins
+    PlayEffect Yellow
+    MinimapIcon 0 Red Circle
+    SetFontSize 50
+    SetTextColor 0 80 0 250
+    SetBackgroundColor 255 255 204 150
+    SetBorderColor 255 255 255 250
+
+# Socketables
 
 Show
     Class = Socketable
@@ -101,15 +138,6 @@ Show
     SetTextColor 150 0 0 250
     SetBackgroundColor 255 255 204 200
     SetBorderColor 255 0 0 250
-
-Show
-    Class = Trial Coins
-    PlayEffect Yellow
-    MinimapIcon 0 Red Circle
-    SetFontSize 50
-    SetTextColor 0 80 0 250
-    SetBackgroundColor 255 255 204 150
-    SetBorderColor 255 255 255 250
 
 # Gold
 
@@ -313,7 +341,7 @@ Show
     SetTextColor 255 255 255 250
     SetBackgroundColor 226 106 25 250
     SetBorderColor 209 209 209
-    PlayAlertSound 8 200
+    PlayAlertSound 1 200
 
 Show
     Rarity = Normal
