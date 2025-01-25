@@ -215,30 +215,6 @@ Hide
     Class "Life Flasks" "Mana Flasks"
     AreaLevel >= 70
 
-# Rare Items
-
-Show
-    Rarity = Rare
-    BaseType = Expert
-    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
-    SetFontSize 30
-    SetTextColor 255 255 119 250
-    SetBorderColor 255 255 0 250
-
-Show
-    Class "Rings" "Amulets" "Belts"
-    Rarity = Rare
-    MinimapIcon 0 Red Moon
-    SetTextColor 231 180 120
-    SetBackgroundColor 0 0 0 250
-    SetBorderColor 250 50 100 250
-    SetFontSize 30
-
-Hide
-    Rarity = Rare
-    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
-    AreaLevel >= 70
-
 # Maps
 
 Show
@@ -281,6 +257,30 @@ Hide
     WaystoneTier < 13
     AreaLevel >= 70
 
+# Rare Items
+
+Show
+    Rarity = Rare
+    BaseType = Expert
+    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+    SetFontSize 30
+    SetTextColor 255 255 119 250
+    SetBorderColor 255 255 0 250
+
+Show
+    Class "Rings" "Amulets" "Belts"
+    Rarity = Rare
+    MinimapIcon 0 Red Moon
+    SetTextColor 231 180 120
+    SetBackgroundColor 0 0 0 250
+    SetBorderColor 250 50 100 250
+    SetFontSize 30
+
+Hide
+    Rarity = Rare
+    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+    AreaLevel >= 70
+
 # Magic Items
 
 Show
@@ -304,6 +304,16 @@ Hide
     AreaLevel >= 70
 
 # Normal Items
+Show
+    Rarity = Normal
+    BaseType = "Stellar Amulet" "Sapphire Ring"
+    MinimapIcon 0 White Star
+    PlayEffect White
+    SetFontSize 40
+    SetTextColor 255 255 255 250
+    SetBackgroundColor 226 106 25 250
+    SetBorderColor 209 209 209
+    PlayAlertSound 8 200
 
 Show
     Rarity = Normal
