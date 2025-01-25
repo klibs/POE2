@@ -160,10 +160,7 @@ Hide
     StackSize < 100
     # AreaLevel >= 70
 
-Hide
-    BaseType "Scroll of Wisdom"
-    SetFontSize 20
-    AreaLevel >= 70
+# Skill Gems
 
 Show
     BaseType = "Uncut Support Gem"
@@ -186,40 +183,7 @@ Show
     SetTextColor 0 100 0 250
     SetBackgroundColor 255 255 204 200
 
-Show
-    Rarity = Unique
-    SetFontSize 50
-    SetTextColor 175 96 37 250
-    SetBorderColor 255 0 0 250
-    PlayEffect Brown
-
-Show
-    Class = Quest Items
-    SetFontSize 50
-    SetBorderColor 0 191 0 200
-
-Show
-    Class = Jewels
-    Rarity = Magic
-    SetFontSize 40
-    SetTextColor 50 150 100 250
-    SetBorderColor 255 255 255 250
-
-Show
-    Class = "Life Flasks"
-    Rarity = Magic
-    SetFontSize 30
-    SetTextColor 226 5 5 194
-    SetBackgroundColor 0 0 0 250
-    AreaLevel < 70
-
-Show
-    Class = "Mana Flasks"
-    Rarity = Magic
-    SetFontSize 30
-    SetTextColor 38 77 248 229
-    SetBackgroundColor 0 0 0 250
-    AreaLevel < 70
+# Flasks
 
 Show
     Class = "Life Flasks"
@@ -284,6 +248,33 @@ Hide
     Class = Waystones
     WaystoneTier < 13
     AreaLevel >= 70
+
+# Misc
+
+Show
+    Rarity = Unique
+    SetFontSize 50
+    SetTextColor 175 96 37 250
+    SetBorderColor 255 0 0 250
+    PlayAlertSound 1 200
+    PlayEffect Brown
+
+Show
+    Class = Quest Items
+    SetFontSize 50
+    SetBorderColor 0 191 0 200
+
+Hide
+    BaseType "Scroll of Wisdom"
+    SetFontSize 20
+    AreaLevel >= 70
+
+Show
+    Class = Jewels
+    SetFontSize 40
+    SetTextColor 50 150 100 250
+    SetBorderColor 255 255 255 250
+    PlayAlertSound 4 200
 
 # Rare Items
 
