@@ -266,8 +266,12 @@ Show
 
 Hide
     BaseType "Scroll of Wisdom"
-    SetFontSize 20
     AreaLevel >= 70
+
+Show
+    BaseType "Scroll of Wisdom"
+    SetFontSize 20
+    AreaLevel < 70
 
 Show
     Class = Jewels
