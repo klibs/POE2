@@ -89,6 +89,16 @@ Show
     PlayAlertSound 6 100
 
 Show
+    Class = Currency
+    BaseType = "Vaal Orb"
+    PlayEffect Yellow
+    SetFontSize 50
+    SetTextColor 187 28 28
+    SetBorderColor 255 100 100
+    SetBackgroundColor 255 255 255 150
+    PlayAlertSound 6 100
+
+Show
     BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
     MinimapIcon 0 Yellow Circle
     SetFontSize 30
