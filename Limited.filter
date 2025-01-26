@@ -58,7 +58,7 @@ Show
     SetBorderColor 0 0 0
     PlayAlertSound 5 200
 
-Show
+Show # T0 Currency
     BaseType "Divine Orb" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
     MinimapIcon 0 Purple Star
     PlayEffect Purple
@@ -68,7 +68,7 @@ Show
     SetBorderColor 0 0 0
     PlayAlertSound 5 200
 
-Show
+Show # T1 Currency
     BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate"
     MinimapIcon 0 Purple Star
     PlayEffect Purple
@@ -78,9 +78,10 @@ Show
     SetBackgroundColor 255 255 255 150
     PlayAlertSound 6 200
 
-Show
+Show # T2 Currency
     Class = Currency
-    BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance"
+    BaseType = "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Glassblower's Bauble" "Gemcutter's Prism"
+    MinimapIcon 0 Yellow Star
     PlayEffect Yellow
     SetFontSize 50
     SetTextColor 255 255 0 255
@@ -88,26 +89,27 @@ Show
     SetBackgroundColor 255 255 255 150
     PlayAlertSound 6 100
 
-Show
+Show # Vaal orbs
     Class = Currency
     BaseType = "Vaal Orb"
-    PlayEffect Yellow
+    MinimapIcon 0 Red Star
+    PlayEffect Red
     SetFontSize 50
-    SetTextColor 187 28 28
+    SetTextColor 226 31 31
     SetBorderColor 255 100 100
     SetBackgroundColor 255 255 255 150
     PlayAlertSound 6 100
 
-Show
-    BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
+Show # T3 Currency
+    Class = Currency
+    BaseType = "Regal Orb" "Artificer's Orb" "Blacksmith's Whetstone" "Armourer's Scrap" "Arcanist's Etcher" "Orb of Alteration"
     MinimapIcon 0 Yellow Circle
-    SetFontSize 30
-    SetBackgroundColor 0 0 0 250
-
-Show
-    BaseType "Orb of Augmentation" "Orb of Transmutation"
-    SetFontSize 30
-    SetBackgroundColor 0 0 0 250
+    PlayEffect Yellow
+    SetFontSize 35
+    SetTextColor 255 255 0 255
+    SetBorderColor 100 150 255 255
+    SetBackgroundColor 255 255 255 150
+    PlayAlertSound 4 100
 
 Show
     Class = Trial Coins
