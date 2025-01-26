@@ -111,6 +111,17 @@ Show # T3 Currency
     SetBackgroundColor 255 255 255 150
     PlayAlertSound 4 100
 
+Show # T4 Currency
+    Class = Currency
+    BaseType = "Chance Shard" "Regal Shard"
+    MinimapIcon 0 Yellow Circle
+    PlayEffect Yellow
+    # SetFontSize 30
+    SetTextColor 255 255 0 255
+    SetBorderColor 100 150 255 255
+    SetBackgroundColor 255 255 255 150
+    PlayAlertSound 4 100
+
 Show
     Class = Trial Coins
     PlayEffect Yellow
