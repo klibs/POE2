@@ -80,7 +80,7 @@ Show # T1 Currency
 
 Show # T2 Currency
     Class = Currency
-    BaseType = "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Glassblower's Bauble" "Gemcutter's Prism"
+    BaseType = "Orb of Alchemy" "Exalted Orb" "Chaos Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Glassblower's Bauble" "Gemcutter's Prism"
     MinimapIcon 0 Yellow Star
     PlayEffect Yellow
     SetFontSize 50
