@@ -113,7 +113,7 @@ Show # T3 Currency
 
 Show # T4 Currency
     Class = Currency
-    BaseType = "Chance Shard" "Regal Shard"
+    BaseType = "Chance Shard" "Regal Shard" "Essence"
     MinimapIcon 0 Yellow Circle
     PlayEffect Yellow
     # SetFontSize 30
