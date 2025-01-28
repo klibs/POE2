@@ -1,18 +1,7 @@
-## alert sounds:
-### 1 - Single gong sound
-### 2 - Single gong sound (deeper)
-### 3 - Single gong sound (even deeper)
-### 4 - Single whoosh sound
-### 5 - Single whoosh sound (louder, very alerting)
-### 6 - Single whoosh sound (higher pitched, alerting)
-### 7 - Echoing notes
-### 8 - Echoing notes
-### 9 - Echoing notes
-### 10 - Single higher pitched note
-### 11 - Single dull note (not very alerting)
-### 12 - Single dull note (not very alerting)
+#==============================
+#            TEST
+#==============================
 
-# # # TEST
 # Show
 #     BaseType = "Scroll of Wisdom"
 #     MinimapIcon 0 White Star
@@ -23,7 +12,9 @@
 #     SetBorderColor 209 209 209
 #     PlayAlertSound 4 200
 
-# Stuff I am looking for / want
+#==============================
+#    STUFF I AM LOOKING FOR
+#==============================
 
 Show
     BaseType "Expert Dualstring Bow"
@@ -45,7 +36,9 @@ Show
     SetFontSize 30
     SetTextColor 109 194 123 250
 
-# Currency
+#==============================
+#          CURRENCY
+#==============================
 
 Show
     BaseType "Mirror of Kalandra"
@@ -262,7 +255,9 @@ Show # BOSS KEYS
 	MinimapIcon 1 Purple Square
 	SetFontSize 40
 
-# Socketables
+#==============================
+#         SOCKETABLES
+#==============================
 
 Show
     Class = Socketable
@@ -293,7 +288,9 @@ Show
     SetBackgroundColor 255 255 204 200
     SetBorderColor 255 0 0 250
 
-# Gold
+#==============================
+#            GOLD
+#==============================
 
 Show
     BaseType == Gold
@@ -314,7 +311,9 @@ Hide
     StackSize < 100
     # AreaLevel >= 70
 
-# Skill Gems
+#==============================
+#         SKILL GEMS
+#==============================
 
 Show
     BaseType = "Uncut Support Gem"
@@ -337,7 +336,9 @@ Show
     SetTextColor 0 100 0 250
     SetBackgroundColor 255 255 204 200
 
-# Flasks
+#==============================
+#           FLASKS
+#==============================
 
 Show
     Class = "Life Flasks"
@@ -361,7 +362,9 @@ Hide
     Class "Life Flasks" "Mana Flasks"
     AreaLevel >= 70
 
-# Maps
+#==============================
+#            MAPS
+#==============================
 
 Show
     Class = Waystones
@@ -403,7 +406,9 @@ Hide
     WaystoneTier < 13
     AreaLevel >= 70
 
-# Misc
+#==============================
+#            MISC
+#==============================
 
 Show
     Rarity = Unique
@@ -434,7 +439,9 @@ Show
     SetBorderColor 255 255 255 250
     PlayAlertSound 4 200
 
-# Rare Items
+#==============================
+#        ITEMS - RARE
+#==============================
 
 Show
     Rarity = Rare
@@ -458,7 +465,9 @@ Hide
     Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
     AreaLevel >= 70
 
-# Magic Items
+#==============================
+#         ITEMS - MAGIC
+#==============================
 
 Show # Superior items in maps
     Rarity = Magic
@@ -491,7 +500,9 @@ Hide
     Quality < 14
     AreaLevel >= 70
 
-# Normal Items
+#==============================
+#         ITEMS - NORMAL
+#==============================
 
 Show # Unique bases
     Rarity = Normal
@@ -530,3 +541,23 @@ Hide # Non-superior normal items in maps
     Class = "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
     Quality < 14
     AreaLevel >= 70
+
+#==============================
+#          REFERENCE
+#==============================
+
+#==============
+# ALERT SOUNDS
+#==============
+### 1 - Single gong sound
+### 2 - Single gong sound (deeper)
+### 3 - Single gong sound (even deeper)
+### 4 - Single whoosh sound
+### 5 - Single whoosh sound (louder, very alerting)
+### 6 - Single whoosh sound (higher pitched, alerting)
+### 7 - Echoing notes
+### 8 - Echoing notes
+### 9 - Echoing notes
+### 10 - Single higher pitched note
+### 11 - Single dull note (not very alerting)
+### 12 - Single dull note (not very alerting)
