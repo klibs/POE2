@@ -1,5 +1,3 @@
-# TEST
-
 ## alert sounds:
 ### 1 - Single gong sound
 ### 2 - Single gong sound (deeper)
@@ -14,6 +12,7 @@
 ### 11 - Single dull note (not very alerting)
 ### 12 - Single dull note (not very alerting)
 
+# # # TEST
 # Show
 #     BaseType = "Scroll of Wisdom"
 #     MinimapIcon 0 White Star
@@ -55,7 +54,7 @@ Show
     SetFontSize 50
     SetTextColor 255 255 255 250
     SetBackgroundColor 255 0 255 250
-    SetBorderColor 0 0 0
+    SetBorderColor 21 255 0
     PlayAlertSound 5 200
 
 Show # T0 Currency
@@ -86,7 +85,7 @@ Show # T2 Currency
     SetFontSize 50
     SetTextColor 255 255 0 255
     SetBorderColor 100 150 255 255
-    SetBackgroundColor 255 255 255 150
+    SetBackgroundColor 138 119 34 150
     PlayAlertSound 6 100
 
 Show # Vaal orbs
@@ -97,7 +96,7 @@ Show # Vaal orbs
     SetFontSize 50
     SetTextColor 226 31 31
     SetBorderColor 255 100 100
-    SetBackgroundColor 255 255 255 150
+    SetBackgroundColor 138 119 34 150
     PlayAlertSound 6 100
 
 Show # T3 Currency
@@ -105,10 +104,10 @@ Show # T3 Currency
     BaseType = "Regal Orb" "Artificer's Orb" "Blacksmith's Whetstone" "Armourer's Scrap" "Arcanist's Etcher" "Orb of Alteration"
     MinimapIcon 0 Yellow Circle
     PlayEffect Yellow
-    SetFontSize 35
+    SetFontSize 36
     SetTextColor 255 255 0 255
     SetBorderColor 100 150 255 255
-    SetBackgroundColor 255 255 255 150
+    SetBackgroundColor 138 119 34 150
     PlayAlertSound 4 100
 
 Show # T4 Currency
@@ -119,7 +118,7 @@ Show # T4 Currency
     # SetFontSize 30
     SetTextColor 255 255 0 255
     SetBorderColor 100 150 255 255
-    SetBackgroundColor 255 255 255 150
+    SetBackgroundColor 138 119 34 150
     PlayAlertSound 4 100
 
 Show
@@ -130,6 +129,138 @@ Show
     SetTextColor 0 80 0 250
     SetBackgroundColor 255 255 204 150
     SetBorderColor 255 255 255 250
+
+#==============================
+#          DELIRIUM
+#==============================
+
+Show # DELIRIUM - Tier 1
+	Class "Currency"
+	BaseType = "Distilled Suffering" "Distilled Isolation"
+	SetFontSize 40
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show # DELIRIUM - Tier 2
+	Class "Currency"
+	BaseType "Distilled Fear" "Distilled Despair"
+	SetFontSize 36
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 240 90 35 255
+	PlayEffect Yellow
+    PlayAlertSound 6 300
+	MinimapIcon 0 Orange Circle
+
+Show # DELIRIUM - Tier 3
+	Class "Currency"
+	BaseType "Distilled"
+	SetTextColor 245 190 132
+	SetBorderColor 245 190 132
+	SetBackgroundColor 76 51 12
+	PlayEffect White
+	MinimapIcon 2 White Circle
+
+#==============================
+#          CATALYST
+#==============================
+
+
+Show # CATALYST - All Tiers
+	Class "Currency"
+	BaseType "Catalyst"
+	SetTextColor 245 190 132
+	SetBorderColor 245 190 132
+	SetBackgroundColor 76 51 12
+	PlayEffect White
+	MinimapIcon 2 White Circle
+
+
+#==============================
+#            OMENS
+#==============================
+
+
+Show # OMEN - All Tiers 
+	Class "Omen"
+	BaseType "Omen of"
+	SetTextColor 245 190 132
+	SetBorderColor 245 190 132
+	SetBackgroundColor 76 51 12
+    PlayAlertSound 5 200
+	PlayEffect White
+	MinimapIcon 2 White Circle
+
+
+#==============================
+#         EXPEDITION
+#==============================
+
+Show # LOGBOOKS
+	BaseType "Expedition Logbook"
+	SetTextColor 255 85 85 255
+	SetBorderColor 255 85 85 255
+	SetBackgroundColor 40 0 30 255
+    PlayAlertSound 6 200
+    PlayEffect White
+    MinimapIcon 2 Yellow Moon
+	
+Show # EXOTIC COIN
+	Class "Currency"
+	BaseType "Exotic"
+	SetFontSize 36
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 213 159 0 255
+	PlayEffect White
+	MinimapIcon 2 Yellow Circle
+	
+Show # ARTIFACTS
+	Class "Currency"
+	BaseType " Artifact"
+	SetTextColor 245 190 132
+	SetBorderColor 245 190 132
+
+#==============================
+#      VARIOUS FRAGMENTS
+#==============================
+
+Show # SPLINTERS
+	Class "Currency"
+	BaseType "Simulacrum Splinter" "Breach Splinter"
+	SetTextColor 245 190 132
+	SetBorderColor 245 190 132
+	PlayEffect White Temp
+	MinimapIcon 1 Grey Kite
+
+Show # FRAGMENTS
+	BaseType " Fragment" "Breachstone" "Simulacrum" " Tablet" "Test of"
+	SetTextColor 255 207 255
+	SetBorderColor 255 207 255
+	SetBackgroundColor 65 20 80
+
+Show # TRIALMASTER KEYS
+	BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate"
+	SetTextColor 255 207 255
+	SetBorderColor 255 207 255
+	SetBackgroundColor 65 20 80
+	PlayEffect Pink
+	MinimapIcon 1 Purple Square
+	SetFontSize 40
+	
+Show # BOSS KEYS
+	Class "Pinnacle Keys"
+	SetTextColor 255 207 255
+	SetBorderColor 255 207 255
+	SetBackgroundColor 65 20 80
+	PlayAlertSound 2 300
+	PlayEffect Pink
+	MinimapIcon 1 Purple Square
+	SetFontSize 40
 
 # Socketables
 
