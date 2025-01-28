@@ -105,12 +105,23 @@ Show # T3 Currency
 
 Show # T4 Currency
     Class = Currency
-    BaseType = "Chance Shard" "Regal Shard" "Essence"
+    BaseType = "Chance Shard" "Regal Shard"
     MinimapIcon 0 Yellow Circle
     PlayEffect Yellow
     # SetFontSize 30
     SetTextColor 255 255 0 255
     SetBorderColor 100 150 255 255
+    SetBackgroundColor 138 119 34 150
+    PlayAlertSound 4 100
+
+Show # Essences
+    Class = Currency
+    BaseType = "Essence"
+    MinimapIcon 0 Yellow Circle
+    PlayEffect Yellow
+    # SetFontSize 30
+    SetTextColor 255 145 0
+    SetBorderColor 0 146 66
     SetBackgroundColor 138 119 34 150
     PlayAlertSound 4 100
 
