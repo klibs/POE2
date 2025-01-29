@@ -382,7 +382,7 @@ Show # Waystones in maps
     WaystoneTier >= 13
     MinimapIcon 1 White Circle
     SetFontSize 30
-    SetBackgroundColor 108 122 44
+    SetBackgroundColor 120 138 44
     PlayEffect White
     PlayAlertSound 6 150
 
@@ -390,7 +390,7 @@ Show # Lower level waystones early game
     Class = Waystones
     MinimapIcon 1 White Circle
     SetFontSize 30
-    SetBackgroundColor 108 122 44
+    SetBackgroundColor 120 138 44
     PlayEffect White
     PlayAlertSound 6 150
     AreaLevel < 70
