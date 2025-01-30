@@ -527,7 +527,7 @@ Hide
 
 Show # Unique bases
     Rarity = Normal
-    BaseType = "Stellar Amulet" "Sapphire Ring" "Emerald Ring" "Heavy Belt"
+    BaseType = "Stellar Amulet" "Sapphire Ring" "Heavy Belt" # Emerald Ring ?
     MinimapIcon 0 White Star
     PlayEffect White
     SetFontSize 40
