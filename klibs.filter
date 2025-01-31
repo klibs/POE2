@@ -392,7 +392,8 @@ Show # Waystones in maps
     WaystoneTier >= 13
     MinimapIcon 1 White Circle
     SetFontSize 30
-    SetBackgroundColor 120 138 44
+    SetTextColor 184 58 58
+    SetBackgroundColor 192 192 192
     PlayEffect White
     PlayAlertSound 6 150
 
@@ -400,7 +401,8 @@ Show # Lower level waystones early game
     Class = Waystones
     MinimapIcon 1 White Circle
     SetFontSize 30
-    SetBackgroundColor 120 138 44
+    SetTextColor 184 58 58
+    SetBackgroundColor 192 192 192
     PlayEffect White
     PlayAlertSound 6 150
     AreaLevel < 70
@@ -522,8 +524,7 @@ Show # Jewelery and belts
     Rarity = Magic
     Class = "Belts" "Rings" "Amulets"
     SetFontSize 30
-    SetTextColor 119 128 255
-    SetBorderColor 39 54 255 250
+    SetBorderColor 123 52 255 200
 
 Hide
     Rarity = Magic
