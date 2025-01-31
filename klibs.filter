@@ -16,25 +16,22 @@
 #    STUFF I AM LOOKING FOR
 #==============================
 
-Show
+Show # All Expert Dualstring Bows
     BaseType "Expert Dualstring Bow"
-    Rarity = Rare
     SetFontSize 30
-    SetTextColor 109 194 123 250
-    SetBorderColor 255 255 0 250
+    SetBackgroundColor 115 206 130 250
 
-Show
-    BaseType "Expert Dualstring Bow"
-    Rarity = Magic
+Show # Wands
+    Class "Wands"
+    Rarity = Magic Rare
     SetFontSize 30
-    SetTextColor 109 194 123 250
-    SetBorderColor 0 0 255 250
+    SetBackgroundColor 115 206 130 250
 
-Show
-    BaseType "Expert Dualstring Bow"
-    Rarity = Normal
+Show # Foci
+    Class "Foci"
+    Rarity = Magic Rare
     SetFontSize 30
-    SetTextColor 109 194 123 250
+    SetBackgroundColor 115 206 130 250
 
 #==============================
 #          CURRENCY
@@ -473,14 +470,14 @@ Show
 #       ITEMS - SUPERIOR
 #==============================
 
+# These rules must go before all other item rules
+
 Show # All high quality superior items in maps
-    Class = "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Bows" "Crossbows"
     Quality >= 14
     SetBackgroundColor 219 219 219 250
     AreaLevel >= 65
 
 Show # All superior items outside of maps
-    Class = "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Bows" "Crossbows"
     Quality > 0
     SetBackgroundColor 219 219 219 250
     AreaLevel < 65
@@ -489,26 +486,21 @@ Show # All superior items outside of maps
 #        ITEMS - RARE
 #==============================
 
-Show
+Show # Always show expert rare items
     Rarity = Rare
     BaseType = Expert
-    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Bows" "Crossbows"
-    SetFontSize 30
-    SetTextColor 255 255 119 250
-    SetBorderColor 255 255 0 250
+    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
 
-Show
+Show # Rare jewelery + belts
     Class "Rings" "Amulets" "Belts"
     Rarity = Rare
-    MinimapIcon 0 Red Moon
-    SetTextColor 231 180 120
-    SetBackgroundColor 0 0 0 250
-    SetBorderColor 250 50 100 250
-    SetFontSize 30
+    MinimapIcon 0 Yellow Moon
+    SetBorderColor 123 52 255 200
+    SetFontSize 40
 
-Hide # Rare items in maps
+Hide # All other rare items in maps
     Rarity = Rare
-    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Bows" "Crossbows"
+    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
     AreaLevel >= 65
 
 #==============================
@@ -518,12 +510,12 @@ Hide # Rare items in maps
 Show # Jewelery and belts
     Rarity = Magic
     Class = "Belts" "Rings" "Amulets"
-    SetFontSize 36
     SetBorderColor 123 52 255 200
+    SetFontSize 40
 
 Hide # Magic items in maps
     Rarity = Magic
-    Class = "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Bows" "Crossbows"
+    Class = "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
     AreaLevel >= 65
 
 #==============================
@@ -548,7 +540,7 @@ Show
 
 Hide # Normal items in maps
     Rarity = Normal
-    Class = "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Bows" "Crossbows"
+    Class = "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Staves" "Bows" "Quivers" "Crossbows"
     AreaLevel >= 65
 
 
