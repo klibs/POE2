@@ -475,12 +475,12 @@ Show
 
 Show # All high quality superior items in maps
     Quality >= 14
-    SetBackgroundColor 219 219 219 250
+    SetBackgroundColor 219 219 219 147
     AreaLevel >= 65
 
 Show # All superior items outside of maps
     Quality > 0
-    SetBackgroundColor 219 219 219 250
+    SetBackgroundColor 219 219 219 147
     AreaLevel < 65
 
 #==============================
