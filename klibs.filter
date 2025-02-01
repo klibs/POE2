@@ -27,7 +27,8 @@ Show # Wands
     SetFontSize 30
     SetBackgroundColor 115 206 130 250
 
-Show # Foci
+Show # Expert Foci
+    BaseType = "Expert"
     Class "Foci"
     Rarity = Magic Rare
     SetFontSize 30
