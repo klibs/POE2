@@ -508,9 +508,9 @@ Hide # All other rare items in maps that we want "Expert" base type for
 #         ITEMS - MAGIC
 #==============================
 
-Show # Jewelery and belts
+Show # Jewelery
     Rarity = Magic
-    Class = "Belts" "Rings" "Amulets"
+    Class = "Rings" "Amulets"
     SetBorderColor 123 52 255 200
     SetFontSize 40
 
@@ -525,7 +525,7 @@ Hide # Magic items in maps
 
 Show # Normal unique bases
     Rarity = Normal
-    BaseType = "Stellar Amulet" "Sapphire Ring" "Heavy Belt" # Emerald Ring ?
+    BaseType = "Stellar Amulet" "Sapphire Ring" # "Heavy Belt" # Emerald Ring ?
     MinimapIcon 0 White Star
     PlayEffect White
     SetFontSize 40
