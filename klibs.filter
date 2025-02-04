@@ -541,7 +541,7 @@ Show
 
 Hide # Normal items in maps
     Rarity = Normal
-    Class = "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
+    Class = "Belts" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
     AreaLevel >= 65
 
 
