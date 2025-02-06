@@ -331,21 +331,24 @@ Hide
 #         SKILL GEMS
 #==============================
 
-Show
+Hide # Support gems
     BaseType = "Uncut Support Gem"
-    MinimapIcon 0 Green Circle
-    SetFontSize 30
-    SetTextColor 0 100 0 250
-    SetBackgroundColor 255 255 204 200
 
-Show
+# Show # Support gems in maps
+#     BaseType = "Uncut Support Gem"
+#     MinimapIcon 0 Green Circle
+#     SetFontSize 30
+#     SetTextColor 0 100 0 250
+#     SetBackgroundColor 255 255 204 200
+
+Show # Skill Gems
     BaseType = "Uncut Skill Gem"
     MinimapIcon 0 Green Circle
     SetFontSize 30
     SetTextColor 0 100 0 250
     SetBackgroundColor 255 255 204 200
 
-Show
+Show # Spirit Gems
     BaseType = "Uncut Spirit Gem"
     MinimapIcon 0 Green Circle
     SetFontSize 30
@@ -451,14 +454,14 @@ Show
     SetFontSize 50
     SetBorderColor 0 191 0 200
 
-Hide
-    BaseType "Scroll of Wisdom"
+# Hide
+#     BaseType "Scroll of Wisdom"
     # AreaLevel >= 70
 
-# Show
-#     BaseType "Scroll of Wisdom"
-#     SetFontSize 20
-#     AreaLevel < 70
+Show
+    BaseType "Scroll of Wisdom"
+    SetFontSize 20
+    # AreaLevel < 70
 
 Show
     Class = Jewels
