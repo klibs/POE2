@@ -19,20 +19,20 @@
 Show # All Expert Dualstring Bows
     BaseType "Expert Dualstring Bow"
     SetFontSize 30
-    SetBackgroundColor 115 206 130 250
+    SetBackgroundColor 106 189 120 178
 
 Show # Wands
     Class "Wands"
     Rarity = Magic Rare
     SetFontSize 30
-    SetBackgroundColor 115 206 130 250
+    SetBackgroundColor 106 189 120 178
 
 Show # Expert Foci
     BaseType = "Expert"
     Class "Foci"
     Rarity = Magic Rare
     SetFontSize 30
-    SetBackgroundColor 115 206 130 250
+    SetBackgroundColor 106 189 120 178
 
 #==============================
 #          CURRENCY
