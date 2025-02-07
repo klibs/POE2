@@ -177,7 +177,7 @@ Show # CATALYST - All Tiers
 	BaseType "Catalyst"
 	SetTextColor 245 190 132
 	SetBorderColor 245 190 132
-	SetBackgroundColor 76 51 12
+	SetBackgroundColor 23 21 126
 	PlayEffect White
 	MinimapIcon 2 White Circle
 
@@ -390,8 +390,8 @@ Show # Waystones in maps
     WaystoneTier >= 13
     MinimapIcon 1 White Circle
     SetFontSize 30
-    SetTextColor 184 58 58
     SetBackgroundColor 192 192 192
+    SetBorderColor 255 0 0
     PlayEffect White
     PlayAlertSound 6 150
 
@@ -399,8 +399,8 @@ Show # Lower level waystones early game
     Class = Waystones
     MinimapIcon 1 White Circle
     SetFontSize 30
-    SetTextColor 184 58 58
     SetBackgroundColor 192 192 192
+    SetBorderColor 255 0 0
     PlayEffect White
     PlayAlertSound 6 150
     AreaLevel < 75
