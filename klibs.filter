@@ -93,7 +93,7 @@ Show # Vaal orbs
 Show # T3 Currency
     Class = Currency
     BaseType = "Regal Orb" "Artificer's Orb" "Blacksmith's Whetstone" "Armourer's Scrap" "Arcanist's Etcher" "Orb of Alteration"
-    MinimapIcon 0 Yellow Circle
+    MinimapIcon 2 Yellow Circle
     PlayEffect Yellow
     SetFontSize 36
     SetTextColor 255 255 0 255
@@ -104,12 +104,12 @@ Show # T3 Currency
 Show # T4 Currency
     Class = Currency
     BaseType = "Chance Shard" "Regal Shard"
-    MinimapIcon 0 Yellow Circle
+    MinimapIcon 3 Yellow Circle
     PlayEffect Yellow
     # SetFontSize 30
-    SetTextColor 255 255 0 255
+    # SetTextColor 255 255 0 255
     SetBorderColor 100 150 255 255
-    SetBackgroundColor 138 119 34 150
+    # SetBackgroundColor 138 119 34 150
     PlayAlertSound 4 100
 
 Show # Essences
@@ -278,15 +278,15 @@ Show
     SetBackgroundColor 255 255 204 200
     SetBorderColor 255 0 0 250
 
-Show
-    Class = Socketable
-    BaseType "Iron Rune"
-    MinimapIcon 1 Yellow Circle
-    PlayEffect Yellow Temp
-    SetFontSize 40
-    SetTextColor 51 255 255 200
-    SetBackgroundColor 51 153 255 120
-    SetBorderColor 255 255 204 150
+# Show
+#     Class = Socketable
+#     BaseType "Iron Rune"
+#     MinimapIcon 1 Yellow Circle
+#     PlayEffect Yellow Temp
+#     SetFontSize 40
+#     SetTextColor 51 255 255 200
+#     SetBackgroundColor 51 153 255 120
+#     SetBorderColor 255 255 204 150
 
 Show
     Class = Socketable
