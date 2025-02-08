@@ -352,9 +352,9 @@ Show # Skill Gems
 Show # Spirit Gems
     BaseType = "Uncut Spirit Gem"
     MinimapIcon 2 Green Triangle
-    SetFontSize 40
+    SetFontSize 30
     SetTextColor 0 100 0 250
-    SetBackgroundColor 255 255 204 200
+    SetBackgroundColor 210 255 204 200
 
 #==============================
 #           FLASKS
@@ -388,7 +388,7 @@ Hide
 
 Show # Waystones in maps
     Class = Waystones
-    WaystoneTier >= 13
+    WaystoneTier >= 14
     MinimapIcon 1 White Circle
     SetFontSize 30
     SetBackgroundColor 59 59 59
