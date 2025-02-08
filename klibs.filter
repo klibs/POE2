@@ -93,7 +93,7 @@ Show # Vaal orbs
 Show # T3 Currency
     Class = Currency
     BaseType = "Regal Orb" "Artificer's Orb" "Blacksmith's Whetstone" "Armourer's Scrap" "Arcanist's Etcher" "Orb of Alteration"
-    MinimapIcon 2 Yellow Circle
+    MinimapIcon 1 Yellow Circle
     PlayEffect Yellow
     SetFontSize 36
     SetTextColor 255 255 0 255
@@ -104,7 +104,7 @@ Show # T3 Currency
 Show # T4 Currency
     Class = Currency
     BaseType = "Chance Shard" "Regal Shard"
-    MinimapIcon 3 Yellow Circle
+    MinimapIcon 2 Yellow Square
     PlayEffect Yellow
     # SetFontSize 30
     # SetTextColor 255 255 0 255
@@ -175,6 +175,7 @@ Show # DELIRIUM - Tier 3
 Show # CATALYST - All Tiers
 	Class "Currency"
 	BaseType "Catalyst"
+    MinimapIcon 1 Blue Triangle
 	SetTextColor 245 190 132
 	SetBorderColor 245 190 132
 	SetBackgroundColor 23 21 126
@@ -343,15 +344,15 @@ Hide # Support gems
 
 Show # Skill Gems
     BaseType = "Uncut Skill Gem"
-    MinimapIcon 0 Green Circle
+    MinimapIcon 2 Green Circle
     SetFontSize 30
     SetTextColor 0 100 0 250
     SetBackgroundColor 255 255 204 200
 
 Show # Spirit Gems
     BaseType = "Uncut Spirit Gem"
-    MinimapIcon 0 Green Circle
-    SetFontSize 30
+    MinimapIcon 2 Green Triangle
+    SetFontSize 40
     SetTextColor 0 100 0 250
     SetBackgroundColor 255 255 204 200
 
@@ -390,7 +391,7 @@ Show # Waystones in maps
     WaystoneTier >= 13
     MinimapIcon 1 White Circle
     SetFontSize 30
-    SetBackgroundColor 192 192 192
+    SetBackgroundColor 59 59 59
     SetBorderColor 255 0 0
     PlayEffect White
     PlayAlertSound 6 150
@@ -399,7 +400,7 @@ Show # Lower level waystones early game
     Class = Waystones
     MinimapIcon 1 White Circle
     SetFontSize 30
-    SetBackgroundColor 192 192 192
+    SetBackgroundColor 59 59 59
     SetBorderColor 255 0 0
     PlayEffect White
     PlayAlertSound 6 150
