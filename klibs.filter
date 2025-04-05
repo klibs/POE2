@@ -327,7 +327,7 @@ Show
 Show
     BaseType == Gold
     StackSize < 100
-    SetFontSize 15
+    SetFontSize 18
 
 Hide
     BaseType == Gold
