@@ -16,6 +16,16 @@
 #    STUFF I AM LOOKING FOR
 #==============================
 
+Show
+    BaseType Buckler
+    SetFontSize 40
+    SetBorderColor 255 0 125
+
+Show
+    BaseType Spear
+    SetFontSize 40
+    SetBorderColor 255 0 125
+
 # Show # All Expert Dualstring Bows
 #     BaseType "Expert Dualstring Bow"
 #     SetFontSize 30
@@ -487,22 +497,23 @@ Show
 
 Show # All high quality superior items in maps
     Quality >= 14
-    SetBackgroundColor 219 219 219 147
+    SetBorderColor 219 219 219 147
     AreaLevel >= 65
 
 Show # All superior items outside of maps
     Quality > 0
-    SetBackgroundColor 219 219 219 147
+    SetBorderColor 219 219 219 147
     AreaLevel < 65
 
 #==============================
 #        ITEMS - RARE
 #==============================
 
-Show # Always show expert rare items
+#Show # Always show expert rare items
     # Rarity = Rare
     # # BaseType = "Expert"
     # Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Quivers" "Crossbows"
+
 
 Show # Rare jewelery + belts
     Class "Rings" "Amulets" "Belts"
@@ -510,6 +521,7 @@ Show # Rare jewelery + belts
     MinimapIcon 0 Yellow Moon
     SetBorderColor 123 52 255 200
     SetFontSize 40
+
 
 Hide # All other rare items in maps that we want "Expert" base type for
     Rarity = Rare
@@ -523,7 +535,7 @@ Hide # All other rare items in maps that we want "Expert" base type for
 Show # Jewelery
     Rarity = Magic
     Class = "Rings" "Amulets"
-    SetBorderColor 123 52 255 200
+    SetBorderColor 255 0 125
     SetFontSize 40
 
 Hide # Magic items in maps
@@ -544,12 +556,14 @@ Show # Normal unique bases
     SetTextColor 255 255 255 250
     SetBackgroundColor 226 106 25 250
     SetBorderColor 209 209 209
-    PlayAlertSound 1 200
+    PlayAlertSound 2 200
 
 Show
-    Rarity = Normal
+    # Rarity = Normal
     Class = "Rings" "Amulets"
-    SetFontSize 36
+    SetFontSize 40
+    SetBorderColor 255 0 125
+    AreaLevel < 65
 
 Hide # Normal items in maps
     Rarity = Normal
