@@ -331,7 +331,7 @@ Show
 Show
     BaseType == Gold
     StackSize >= 100
-    SetFontSize 20
+    SetFontSize 25
     SetTextColor 255 255 204 150
 
 Show
