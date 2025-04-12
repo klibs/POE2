@@ -487,13 +487,29 @@ Show
 
 Show # All high quality superior items in maps
     Quality >= 14
-    SetBorderColor 219 219 219 147
+    SetBorderColor 0 255 0
     AreaLevel >= 65
 
 Show # All superior items outside of maps
     Quality > 0
-    SetBorderColor 219 219 219 147
-    AreaLevel < 65
+    SetBorderColor 0 255 0
+    # AreaLevel < 65
+
+#==============================
+#       ITEMS - SOCKETED
+#==============================
+
+# These rules must go before all other item rules
+
+Show # All multi-socket items in maps
+    Sockets > 1
+    SetBorderColor 132 0 255
+    AreaLevel >= 65
+
+Show # All socketed items outside of maps
+    Sockets > 0
+    SetBorderColor 132 0 255
+    # AreaLevel < 65
 
 #==============================
 #        ITEMS - RARE
