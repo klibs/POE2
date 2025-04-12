@@ -18,12 +18,12 @@
 
 Show
     BaseType Buckler
-    SetFontSize 40
+    # SetFontSize 40
     SetBorderColor 255 0 125
 
 Show
     BaseType Spear
-    SetFontSize 40
+    # SetFontSize 40
     SetBorderColor 255 0 125
 
 # Show # All Expert Dualstring Bows
