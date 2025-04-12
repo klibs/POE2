@@ -346,9 +346,9 @@ Show # Support gems
     SetTextColor 0 100 0 250
     SetBackgroundColor 255 255 204 200
 
-Hide # Support gems in maps
-    BaseType = "Uncut Support Gem"
-    AreaLevel >= 70
+# Hide # Support gems in maps
+#     BaseType = "Uncut Support Gem"
+#     AreaLevel >= 70
 
 Show # Skill Gems
     BaseType = "Uncut Skill Gem"
@@ -386,9 +386,9 @@ Show
     SetBackgroundColor 0 0 0 250
     AreaLevel >= 65
 
-Hide
-    Class "Life Flasks" "Mana Flasks"
-    AreaLevel >= 65
+# Hide
+#     Class "Life Flasks" "Mana Flasks"
+#     AreaLevel >= 65
 
 #==============================
 #            MAPS
@@ -513,10 +513,10 @@ Show # Rare jewelery + belts
     SetFontSize 40
 
 
-Hide # All other rare items in maps that we want "Expert" base type for
-    Rarity = Rare
-    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Quivers" "Crossbows"
-    AreaLevel >= 65
+# Hide # All other rare items in maps that we want "Expert" base type for
+#     Rarity = Rare
+#     Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Quivers" "Crossbows"
+#     AreaLevel >= 65
 
 #==============================
 #         ITEMS - MAGIC
@@ -555,10 +555,10 @@ Show
     SetBorderColor 255 0 125
     AreaLevel < 65
 
-Hide # Normal items in maps
+Hide # Normal items eventually
     Rarity = Normal
-    Class = "Belts" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
-    AreaLevel >= 65
+    Class = "Belts" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows" "Spears" "Bucklers"
+    AreaLevel >= 45
 
 
 #==============================
