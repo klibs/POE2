@@ -18,11 +18,13 @@
 
 Show
     BaseType Buckler
+    Rarity >= Magic
     # SetFontSize 40
     SetBorderColor 255 0 125
 
 Show
     BaseType Spear
+    Rarity >= Magic
     # SetFontSize 40
     SetBorderColor 255 0 125
 
@@ -368,26 +370,18 @@ Show # Spirit Gems
 #           FLASKS
 #==============================
 
-Show
-    Class = "Life Flasks"
-    Rarity = Magic
-    Quality >= 10
-    SetFontSize 30
-    SetTextColor 226 5 5 194
-    SetBackgroundColor 0 0 0 250
-    AreaLevel >= 65
+Show # Superior Flasks
+    Class = "Flasks"
+    Quality > 0
+    SetBorderColor 0 255 0
 
-Show
-    Class = "Mana Flasks"
-    Rarity = Magic
-    Quality >= 10
-    SetFontSize 30
-    SetTextColor 38 77 248 229
-    SetBackgroundColor 0 0 0 250
-    AreaLevel >= 65
+Hide # Hide all normal flasks
+    Class "Flasks"
+    Rarity < Magic
 
-# Hide
+# Hide # Hide all flasks in maps
 #     Class "Life Flasks" "Mana Flasks"
+#     Rarity < Magic
 #     AreaLevel >= 65
 
 #==============================
