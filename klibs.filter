@@ -563,7 +563,7 @@ Show
     Class = "Rings" "Amulets"
     SetFontSize 40
     SetBorderColor 255 0 125
-    AreaLevel < 65
+    # AreaLevel < 65
 
 Hide # Normal items eventually
     Rarity = Normal
