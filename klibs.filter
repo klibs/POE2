@@ -532,16 +532,16 @@ Show # Rare jewelery + belts
 #         ITEMS - MAGIC
 #==============================
 
-Show # Jewelery
+Show # Jewelery + Belts
     Rarity = Magic
-    Class = "Rings" "Amulets"
+    Class = "Rings" "Amulets" "Belts"
     SetBorderColor 255 0 125
     SetFontSize 40
 
-Hide # Magic items in maps
-    Rarity = Magic
-    Class = "Belts" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
-    AreaLevel >= 65
+# Hide # Magic items in maps
+#     Rarity = Magic
+#     Class = "Belts" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
+#     AreaLevel >= 65
 
 #==============================
 #         ITEMS - NORMAL
