@@ -346,7 +346,7 @@ Show # Support gems
     MinimapIcon 0 Green Circle
     SetFontSize 30
     SetTextColor 0 100 0 250
-    SetBackgroundColor 255 255 204 200
+    SetBackgroundColor 255 197 252 200
 
 # Hide # Support gems in maps
 #     BaseType = "Uncut Support Gem"
