@@ -449,11 +449,6 @@ Show
     SetBackgroundColor 255 0 255 130
     SetBorderColor 255 255 150
 
-Hide # Lower maps in high level maps
-    Class = Waystones
-    WaystoneTier < 13
-    AreaLevel >= 70
-
 #==============================
 #            MISC
 #==============================
@@ -552,7 +547,7 @@ Show # Jewelery + Belts
 
 Hide # Magic items in maps
     Rarity = Magic
-    Class = "Belts" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
+    Class = "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
     AreaLevel >= 65
 
 #==============================
