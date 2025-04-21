@@ -389,6 +389,23 @@ Hide # Hide all normal flasks
 #    Rarity < Magic
 #    AreaLevel >= 65
 #==============================
+#           RELICS
+#==============================
+
+
+Show
+    Class = Relics
+    SetBackgroundColor 187 86 255
+    SetTextColor 243 240 73 250
+    SetFontSize 35
+
+Show
+    Class = Trial Keys
+    SetBackgroundColor 192 148 52
+    SetTextColor 255 255 255 250
+    SetFontSize 35
+
+#==============================
 #           CHARMS
 #==============================
 
