@@ -2,53 +2,54 @@
 #            TEST
 #==============================
 
-# Show
-#     BaseType = "Scroll of Wisdom"
-#     MinimapIcon 0 White Star
-#     PlayEffect White
-#     SetFontSize 40
-#     SetTextColor 255 255 255 250
-#     SetBackgroundColor 226 106 25 250
-#     SetBorderColor 209 209 209
-#     PlayAlertSound 4 200
 
+# Show
+#    BaseType = "Scroll of Wisdom"
+#    MinimapIcon 0 White Star
+#    PlayEffect White
+#    SetFontSize 40
+#    SetTextColor 255 255 255 250
+#    SetBackgroundColor 226 106 25 250
+#    SetBorderColor 209 209 209
+#    PlayAlertSound 4 200
 #==============================
 #    STUFF I AM LOOKING FOR
 #==============================
 
+
 Show
     BaseType Buckler
     Rarity >= Magic
-    # SetFontSize 40
+    #SetFontSize 40
     SetBorderColor 255 0 125
 
 Show
     BaseType Spear
     Rarity >= Magic
-    # SetFontSize 40
+    #SetFontSize 40
     SetBorderColor 255 0 125
 
 # Show # All Expert Dualstring Bows
-#     BaseType "Expert Dualstring Bow"
-#     SetFontSize 30
-#     SetBackgroundColor 106 189 120 178
+#    BaseType "Expert Dualstring Bow"
+#    SetFontSize 30
+#    SetBackgroundColor 106 189 120 178
 
 # Show # Wands
-#     Class "Wands"
-#     Rarity = Magic Rare
-#     SetFontSize 30
-#     SetBackgroundColor 106 189 120 178
+#    Class "Wands"
+#    Rarity = Magic Rare
+#    SetFontSize 30
+#    SetBackgroundColor 106 189 120 178
 
 # Show # Expert Foci
-#     BaseType = "Expert"
-#     Class "Foci"
-#     Rarity = Magic Rare
-#     SetFontSize 30
-#     SetBackgroundColor 106 189 120 178
-
+#    BaseType = "Expert"
+#    Class "Foci"
+#    Rarity = Magic Rare
+#    SetFontSize 30
+#    SetBackgroundColor 106 189 120 178
 #==============================
 #          CURRENCY
 #==============================
+
 
 Show
     BaseType "Mirror of Kalandra"
@@ -118,10 +119,10 @@ Show # T4 Currency
     BaseType = "Chance Shard" "Regal Shard"
     MinimapIcon 2 Yellow Square
     PlayEffect Yellow
-    # SetFontSize 30
-    # SetTextColor 255 255 0 255
+    #SetFontSize 30
+    #SetTextColor 255 255 0 255
     SetBorderColor 100 150 255 255
-    # SetBackgroundColor 138 119 34 150
+    #SetBackgroundColor 138 119 34 150
     PlayAlertSound 4 100
 
 Show # Essences
@@ -129,7 +130,7 @@ Show # Essences
     BaseType = "Essence"
     MinimapIcon 0 Yellow Circle
     PlayEffect Yellow
-    # SetFontSize 30
+    #SetFontSize 30
     SetTextColor 255 145 0
     SetBorderColor 0 146 66
     SetBackgroundColor 138 119 34 150
@@ -148,36 +149,37 @@ Show
 #          DELIRIUM
 #==============================
 
+
 Show # DELIRIUM - Tier 1
-	Class "Currency"
-	BaseType = "Distilled Suffering" "Distilled Isolation"
-	SetFontSize 40
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 6 300
-	PlayEffect Red
-	MinimapIcon 0 Red Star
+    Class "Currency"
+    BaseType = "Distilled Suffering" "Distilled Isolation"
+    SetFontSize 40
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+    PlayAlertSound 6 300
+    PlayEffect Red
+    MinimapIcon 0 Red Star
 
 Show # DELIRIUM - Tier 2
-	Class "Currency"
-	BaseType "Distilled Fear" "Distilled Despair"
-	SetFontSize 36
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 240 90 35 255
-	PlayEffect Yellow
+    Class "Currency"
+    BaseType "Distilled Fear" "Distilled Despair"
+    SetFontSize 36
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 240 90 35 255
+    PlayEffect Yellow
     PlayAlertSound 6 300
-	MinimapIcon 0 Orange Circle
+    MinimapIcon 0 Orange Circle
 
 Show # DELIRIUM - Tier 3
-	Class "Currency"
-	BaseType "Distilled"
-	SetTextColor 245 190 132
-	SetBorderColor 245 190 132
-	SetBackgroundColor 76 51 12
-	PlayEffect White
-	MinimapIcon 2 White Circle
+    Class "Currency"
+    BaseType "Distilled"
+    SetTextColor 245 190 132
+    SetBorderColor 245 190 132
+    SetBackgroundColor 76 51 12
+    PlayEffect White
+    MinimapIcon 2 White Circle
 
 #==============================
 #          CATALYST
@@ -185,101 +187,102 @@ Show # DELIRIUM - Tier 3
 
 
 Show # CATALYST - All Tiers
-	Class "Currency"
-	BaseType "Catalyst"
+    Class "Currency"
+    BaseType "Catalyst"
     MinimapIcon 1 Blue Triangle
-	SetTextColor 245 190 132
-	SetBorderColor 245 190 132
-	SetBackgroundColor 23 21 126
-	PlayEffect White
-	MinimapIcon 2 White Circle
-
+    SetTextColor 245 190 132
+    SetBorderColor 245 190 132
+    SetBackgroundColor 23 21 126
+    PlayEffect White
+    MinimapIcon 2 White Circle
 
 #==============================
 #            OMENS
 #==============================
 
 
-Show # OMEN - All Tiers 
-	Class "Omen"
-	BaseType "Omen of"
-	SetTextColor 245 190 132
-	SetBorderColor 245 190 132
-	SetBackgroundColor 76 51 12
+Show # OMEN - All Tiers
+    Class "Omen"
+    BaseType "Omen of"
+    SetTextColor 245 190 132
+    SetBorderColor 245 190 132
+    SetBackgroundColor 76 51 12
     PlayAlertSound 5 200
-	PlayEffect White
-	MinimapIcon 2 White Circle
-
+    PlayEffect White
+    MinimapIcon 2 White Circle
 
 #==============================
 #         EXPEDITION
 #==============================
 
+
 Show # LOGBOOKS
-	BaseType "Expedition Logbook"
-	SetTextColor 255 85 85 255
-	SetBorderColor 255 85 85 255
-	SetBackgroundColor 40 0 30 255
+    BaseType "Expedition Logbook"
+    SetTextColor 255 85 85 255
+    SetBorderColor 255 85 85 255
+    SetBackgroundColor 40 0 30 255
     PlayAlertSound 6 200
     PlayEffect White
     MinimapIcon 2 Yellow Moon
-	
+
 Show # EXOTIC COIN
-	Class "Currency"
-	BaseType "Exotic"
-	SetFontSize 36
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 213 159 0 255
-	PlayEffect White
-	MinimapIcon 2 Yellow Circle
-	
+    Class "Currency"
+    BaseType "Exotic"
+    SetFontSize 36
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 213 159 0 255
+    PlayEffect White
+    MinimapIcon 2 Yellow Circle
+
 Show # ARTIFACTS
-	Class "Currency"
-	BaseType " Artifact"
-	SetTextColor 245 190 132
-	SetBorderColor 245 190 132
+    Class "Currency"
+    BaseType " Artifact"
+    SetTextColor 245 190 132
+    SetBorderColor 245 190 132
 
 #==============================
 #      VARIOUS FRAGMENTS
 #==============================
 
+
 Show # SPLINTERS
-	Class "Currency"
-	BaseType "Simulacrum Splinter" "Breach Splinter"
-	SetTextColor 245 190 132
-	SetBorderColor 245 190 132
-	PlayEffect White Temp
-	MinimapIcon 1 Grey Kite
+    Class "Currency"
+    BaseType "Simulacrum Splinter" "Breach Splinter"
+    SetTextColor 245 190 132
+    SetBorderColor 245 190 132
+    PlayEffect White Temp
+    MinimapIcon 1 Grey Kite
 
 Show # FRAGMENTS
-	BaseType " Fragment" "Breachstone" "Simulacrum" " Tablet" "Test of"
-	SetTextColor 255 207 255
-	SetBorderColor 255 207 255
-	SetBackgroundColor 65 20 80
+    BaseType " Fragment" "Breachstone" "Simulacrum" " Tablet" "Test of"
+    SetTextColor 255 207 255
+    SetBorderColor 255 207 255
+    SetBackgroundColor 65 20 80
 
 Show # TRIALMASTER KEYS
-	BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate"
-	SetTextColor 255 207 255
-	SetBorderColor 255 207 255
-	SetBackgroundColor 65 20 80
-	PlayEffect Pink
-	MinimapIcon 1 Purple Square
-	SetFontSize 40
-	
+    BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate"
+    SetTextColor 255 207 255
+    SetBorderColor 255 207 255
+    SetBackgroundColor 65 20 80
+    PlayEffect Pink
+    MinimapIcon 1 Purple Square
+    SetFontSize 40
+
 Show # BOSS KEYS
-	Class "Pinnacle Keys"
-	SetTextColor 255 207 255
-	SetBorderColor 255 207 255
-	SetBackgroundColor 65 20 80
-	PlayAlertSound 2 300
-	PlayEffect Pink
-	MinimapIcon 1 Purple Square
-	SetFontSize 40
+    Class "Pinnacle Keys"
+    SetTextColor 255 207 255
+    SetBorderColor 255 207 255
+    SetBackgroundColor 65 20 80
+    PlayAlertSound 2 300
+    PlayEffect Pink
+    MinimapIcon 1 Purple Square
+    SetFontSize 40
 
 #==============================
 #         SOCKETABLES
 #==============================
+
 
 Show
     Class = Socketable
@@ -294,7 +297,7 @@ Show
 Show
     Class = Socketable
     BaseType "Rune"
-    # MinimapIcon 1 Yellow Circle
+    #MinimapIcon 1 Yellow Circle
     PlayEffect Yellow Temp
     SetFontSize 30
     SetTextColor 51 255 255 200
@@ -313,6 +316,7 @@ Show
 #==============================
 #            GOLD
 #==============================
+
 
 Show
     BaseType == Gold
@@ -349,8 +353,8 @@ Show # Support gems
     SetBackgroundColor 255 197 252 200
 
 # Hide # Support gems in maps
-#     BaseType = "Uncut Support Gem"
-#     AreaLevel >= 70
+#    BaseType = "Uncut Support Gem"
+#    AreaLevel >= 70
 
 Show # Skill Gems
     BaseType = "Uncut Skill Gem"
@@ -370,6 +374,7 @@ Show # Spirit Gems
 #           FLASKS
 #==============================
 
+
 Show # Superior Flasks
     Class = "Flasks"
     Quality > 0
@@ -380,13 +385,13 @@ Hide # Hide all normal flasks
     Rarity < Magic
 
 # Hide # Hide all flasks in maps
-#     Class "Life Flasks" "Mana Flasks"
-#     Rarity < Magic
-#     AreaLevel >= 65
-
+#    Class "Life Flasks" "Mana Flasks"
+#    Rarity < Magic
+#    AreaLevel >= 65
 #==============================
 #           CHARMS
 #==============================
+
 
 Show
     Class = Charms
@@ -395,6 +400,7 @@ Show
 #==============================
 #            MAPS
 #==============================
+
 
 Show # Waystones in maps
     Class = Waystones
@@ -452,6 +458,7 @@ Hide # Lower maps in high level maps
 #            MISC
 #==============================
 
+
 Show
     Rarity = Unique
     SetFontSize 50
@@ -466,13 +473,13 @@ Show
     SetBorderColor 0 191 0 200
 
 # Hide
-#     BaseType "Scroll of Wisdom"
-    # AreaLevel >= 70
+#    BaseType "Scroll of Wisdom"
+#    AreaLevel >= 70
 
 Show
     BaseType "Scroll of Wisdom"
     SetFontSize 20
-    # AreaLevel < 70
+    #AreaLevel < 70
 
 Show
     Class = Jewels
@@ -485,7 +492,7 @@ Show
 #       ITEMS - SUPERIOR
 #==============================
 
-# These rules must go before all other item rules
+    #These rules must go before all other item rules
 
 Show # All high quality superior items in maps
     Quality >= 14
@@ -495,13 +502,12 @@ Show # All high quality superior items in maps
 Show # All superior items outside of maps
     Quality > 0
     SetBorderColor 0 255 0
-    # AreaLevel < 65
-
+    #AreaLevel < 65
 #==============================
 #       ITEMS - SOCKETED
 #==============================
 
-# These rules must go before all other item rules
+    #These rules must go before all other item rules
 
 Show # All multi-socket items in maps
     Sockets > 1
@@ -511,17 +517,16 @@ Show # All multi-socket items in maps
 Show # All socketed items outside of maps
     Sockets > 0
     SetBorderColor 132 0 255
-    # AreaLevel < 65
-
+    #AreaLevel < 65
 #==============================
 #        ITEMS - RARE
 #==============================
 
-#Show # Always show expert rare items
-    # Rarity = Rare
-    # # BaseType = "Expert"
-    # Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Quivers" "Crossbows"
 
+#Show # Always show expert rare items
+#    Rarity = Rare
+#    # BaseType = "Expert"
+#    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Quivers" "Crossbows"
 
 Show # Rare jewelery + belts
     Class "Rings" "Amulets" "Belts"
@@ -530,15 +535,14 @@ Show # Rare jewelery + belts
     SetBorderColor 123 52 255 200
     SetFontSize 40
 
-
 # Hide # All other rare items in maps that we want "Expert" base type for
-#     Rarity = Rare
-#     Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Quivers" "Crossbows"
-#     AreaLevel >= 65
-
+#    Rarity = Rare
+#    Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Quivers" "Crossbows"
+#    AreaLevel >= 65
 #==============================
 #         ITEMS - MAGIC
 #==============================
+
 
 Show # Jewelery + Belts
     Rarity = Magic
@@ -546,14 +550,15 @@ Show # Jewelery + Belts
     SetBorderColor 255 0 125
     SetFontSize 40
 
-# Hide # Magic items in maps
-#     Rarity = Magic
-#     Class = "Belts" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
-#     AreaLevel >= 65
+Hide # Magic items in maps
+    Rarity = Magic
+    Class = "Belts" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
+    AreaLevel >= 65
 
 #==============================
 #         ITEMS - NORMAL
 #==============================
+
 
 Show # Normal unique bases
     Rarity = Normal
@@ -567,17 +572,16 @@ Show # Normal unique bases
     PlayAlertSound 2 200
 
 Show
-    # Rarity = Normal
+    #Rarity = Normal
     Class = "Rings" "Amulets"
     SetFontSize 40
     SetBorderColor 255 0 125
-    # AreaLevel < 65
+    #AreaLevel < 65
 
 Hide # Normal items eventually
     Rarity = Normal
     Class = "Belts" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows" "Spears" "Bucklers"
     AreaLevel >= 45
-
 
 #==============================
 #          REFERENCE
@@ -586,15 +590,16 @@ Hide # Normal items eventually
 #==============
 # ALERT SOUNDS
 #==============
-### 1 - Single gong sound
-### 2 - Single gong sound (deeper)
-### 3 - Single gong sound (even deeper)
-### 4 - Single whoosh sound
-### 5 - Single whoosh sound (louder, very alerting)
-### 6 - Single whoosh sound (higher pitched, alerting)
-### 7 - Echoing notes
-### 8 - Echoing notes
-### 9 - Echoing notes
-### 10 - Single higher pitched note
-### 11 - Single dull note (not very alerting)
-### 12 - Single dull note (not very alerting)
+
+    ### 1 - Single gong sound
+    ### 2 - Single gong sound (deeper)
+    ### 3 - Single gong sound (even deeper)
+    ### 4 - Single whoosh sound
+    ### 5 - Single whoosh sound (louder, very alerting)
+    ### 6 - Single whoosh sound (higher pitched, alerting)
+    ### 7 - Echoing notes
+    ### 8 - Echoing notes
+    ### 9 - Echoing notes
+    ### 10 - Single higher pitched note
+    ### 11 - Single dull note (not very alerting)
+    ### 12 - Single dull note (not very alerting)
